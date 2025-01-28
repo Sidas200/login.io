@@ -13,6 +13,9 @@ html, body {
 
 .nav {
   position: absolute;
+  display: flex;
+  justify-content: end;
+
   top: 0;
   width: 100%;
   height: 40px;
@@ -33,10 +36,9 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 30vh;
   align-items: center;
   width: 80vh;
-  max-width: 100vw;
   height: auto;
   padding: 20px;
   border-radius: 20px;
@@ -60,5 +62,19 @@ input[type="text"] {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+.boton_home{
+  margin: 7px;
+  background-color: lightblue;
+  border-radius: 7px;
+  border-color: lightblue;
+
+}
+
+.datos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
